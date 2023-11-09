@@ -23,18 +23,15 @@ public class CalcolaBiglietto {
 	        	
 	            sconto = prezzoBase * 0.20;
 	            
-	        } else if(eta >= 65){
+	        }else if(eta >= 65){
 	        	
 	            sconto = prezzoBase * 0.40;
 	            
 	        }
-
 	     
 	        double prezzoTotale = prezzoBase - sconto;
-
 	    
 	        System.out.println("Il prezzo totale del viaggio è: " + prezzoTotale + "€");
-
 	       
 	        in.close();
 		}
